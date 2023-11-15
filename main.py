@@ -119,7 +119,7 @@ heightFtSpinbox.grid(row=1, column=1)
 heightInSpinbox.grid(row=1, column=2)
 
 # Weight widgets
-weightLabel = tkinter.Label(infoFrame, text="Weight")
+weightLabel = tkinter.Label(infoFrame, text="Weight(lbs)")
 weightSpinbox = tkinter.Spinbox(infoFrame, from_=110, to=400, increment=.1)
 
 # Weight widget alignment
